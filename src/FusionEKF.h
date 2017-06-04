@@ -37,6 +37,9 @@ private:
 
   // previous timestamp
   long long previous_timestamp_;
+    
+    bool use_radar_;
+    bool use_lidar_;
 
   // tool object used to compute Jacobian and RMSE
   Tools tools;
